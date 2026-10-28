@@ -1,0 +1,26 @@
+{
+  "null": {
+    "source": "monte_carlo_simulation",
+    "n_per_group": 3835,
+    "true_p_a": 0.1,
+    "true_p_b": 0.1,
+    "repetitions": 1000,
+    "seed": 123,
+    "alpha": 0.05,
+    "rejection_frequency": 0.049,
+    "monte_carlo_standard_error": 0.006826346021115542,
+    "interpretation": "false_positive_frequency"
+  },
+  "alternative": {
+    "source": "monte_carlo_simulation",
+    "n_per_group": 3835,
+    "true_p_a": 0.1,
+    "true_p_b": 0.12,
+    "repetitions": 1000,
+    "seed": 456,
+    "alpha": 0.05,
+    "rejection_frequency": 0.814,
+    "monte_carlo_standard_error": 0.012304633273690038,
+    "interpretation": "empirical_power"
+  }
+}

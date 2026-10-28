@@ -1,0 +1,28 @@
+{
+  "metric": "user_conversion",
+  "baseline": 0.1,
+  "target": 0.12000000000000001,
+  "mde_absolute": 0.02,
+  "mde_relative": 0.19999999999999998,
+  "practical_threshold": 0.01,
+  "alpha": 0.05,
+  "power": 0.8,
+  "alternative": "two-sided",
+  "allocation_a": 0.5,
+  "allocation_b": 0.5,
+  "method": "NormalIndPower with Cohen h (normal approximation)",
+  "n_per_group": 3835,
+  "n_total": 7670,
+  "daily_eligible_users": 1000,
+  "estimated_enrollment_days": 8,
+  "suggested_full_week_days": 14,
+  "conversion_window_days": 7,
+  "hypothesis_null": "p_B - p_A = 0",
+  "hypothesis_alternative": "p_B - p_A != 0",
+  "assumptions": [
+    "Independent users, one row per randomized user, binary outcome.",
+    "Equal allocation; one primary metric; single final analysis.",
+    "Do not stop when significance first appears.",
+    "Time estimate excludes the final 7-day conversion maturation window."
+  ]
+}

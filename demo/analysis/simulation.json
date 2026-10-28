@@ -1,0 +1,9 @@
+{
+  "source": "synthetic_simulation",
+  "seed": 42,
+  "n_per_group": 3835,
+  "true_p_a": 0.1,
+  "true_p_b": 0.12000000000000001,
+  "true_effect": 0.020000000000000004,
+  "assignment": "exact equal group sizes, randomized row order"
+}
